@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Pastel, Pastelería">
+    <title>FORMULARIO</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        table {margin: 0 auto;} /*Centrar tablas*/
+
+        input.submit{
+            background: rgb(255, 116, 192);
+            padding: 10px ;
+            font-size: 20px;
+            width: 300px;
+            color: white;
+        }
+
+        input.text {
+            background: white;
+            padding: 10px ;
+            font-size: 15px;
+            width: 800px;
+            color: black;
+            }
+         
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #F5F5F5;
+            padding: 8px;
+            font-size: 35px;
+            color: #DB7093;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+
+        article {
+            float: left;
+            padding: 30px;
+            width: 100%;
+            background-color: #ffe4f1;
+            height: 1400px;
+            color: Crimson;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td><img src="Imagenes/Logo.png" alt="Logo" width="200" height="200"></td>
+                <td><h1>PEDIDOS</h1></td> 
+            </tr>
+        </table>
+        
+    </header>
+    <article>
+        <p><center>Por favor llene todos los campos solicitados.
+            Estos es necesario para que tu pedido sea exitoso y exacto.</center>
+        </p>
+        <h2>Datos Personales</h2><br>
+        <label for="nombre1">Nombres</label><br>
+        <input type="text" id="nombre1" name="nombre1" class="text"><br><br>
+
+        <label for="apellido1">Apellidos</label><br>
+        <input type="text" id="apellido1" name="apellido1" class="text"><br><br>
+
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1" class="text"><br><br>
+    
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" class="text"><br><br>
+
+        <h2>Descripción De Pedido</h2><br>
+
+        <label for="pisos1">Cantidad De Pisos</label><br>
+        <input type="text" id="pisos1" name="pisos1" class="text"><br><br>
+
+        <label for="forma1">Forma</label><br>
+        <input type="text" id="forma1" name="forma1" class="text"><br><br>
+
+        <label for="datos1">Alguna Especificación (opcional)</label><br>
+        <input type="text" id="datos1" name="datos1" class="text"><br><br><br><br>
+
+        <h2>Sabor</h2>
+        <p>Selecciona el sabor o los sabores de pan</p>
+        <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+        <label for="topping1">Chocolate</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Zanahoria">
+        <label for="topping2">Zanahoria</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Redvelt">
+        <label for="topping3">Redvelt</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Frutal">
+        <label for="topping4">Frutal</label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Limon">
+        <label for="topping5">Limon</label><br>
+        <input type="checkbox" id="topping6" name="topping6" value="Moka">
+        <label for="topping6">Moka</label><br><br> 
+
+        <h2>Decoraciones</h2>
+        <p>Selecciona con que quieres decorarlo</p>
+        <input type="checkbox" id="topping7" name="topping7" value="3D">
+        <label for="topping7">3D</label><br>
+        <input type="checkbox" id="topping8" name="topping8" value="Buttercream">
+        <label for="topping8">Buttercream</label><br>
+        <input type="checkbox" id="topping9" name="topping9" value="DripCake">
+        <label for="topping9">Drip Cake</label><br>
+        <input type="checkbox" id="topping10" name="topping10" value="Ganache">
+        <label for="topping10">Ganache</label><br>
+        <input type="checkbox" id="topping11" name="topping11" value="Floral">
+        <label for="topping11">Floral</label><br>
+        <input type="checkbox" id="topping12" name="topping12" value="Naked">
+        <label for="topping12">Naked</label><br><br> 
+
+        <table>
+            <tr>
+                <td>
+                    <form action="index.html">
+                        <input type="submit" value="Listo" class="submit">
+                    </form>
+                </td>
+                <td>
+                    <form action="index.html">
+                        <input type="submit" value="Cancelar" class="submit">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
+    </article>
+    
+</body>
+
+</html>

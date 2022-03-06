@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Pastel, Pastelería">
+    <title>CAKER</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        input.submit{
+            background: #DC143C;
+            padding: 10px 20px;
+            font-size: 20px;
+            width: 300px;
+            color: white;
+        }
+        input.submit2{
+            text-align: center;
+            background: #DC143C;
+            padding: 10px;
+            font-size: 12px;
+            width: 250px;
+            color: white;
+        }
+        table {margin: 0 auto;} /*Centrar tablas*/
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Estilo de header */
+        header {
+            background-color: #F5F5F5;
+            padding: 8px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 30%;
+            height: 2150px;
+            background: #FAEBD7;
+            padding: 20px;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #ffe4f1;
+            height: 2150px;
+            color: Crimson;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Sweet Cake.png" alt="Banner" width="1300" height="400"> 
+    </header>
+
+    <nav>
+        <br><br>
+        <form action="encargo.html">
+            <input type="submit" value="Ver Pedidos" class="submit">
+        </form>
+        <h2><br><br><br><center>Información Mostrada:</center></h2>
+        <p><br><p><center>Horarios De Atención</center></p>
+        <p><center>Lun-Vier 9:00 am - 21:00 pm</center></p>
+        <p><center>Sab y Dom 9:00 am - 20:00 pm</center></p>
+        <p><center>___________________________________</center> </p>
+        <p><center>Puedes encontrarnos en:</center></p>
+        <p><center>Dulce Limon 6545   Av. La Cosa</center></p>
+        <p><center>Cajetilla 569   Av. Gato Panzón</center></p>
+        <p><center>___________________________________</center> </p>
+        <p><br><center>Puedes contactarnos por:</center></p>
+        <p><center>Telefono: 33 6589 4510</center></p>
+        <p><center>Correo: sweetcaki@dulcecito.com</center></p>
+        <p><br><center>O bien por nuestras redes:</center></p>
+        <p><center>Instagram: sweet_cake_099</center></p>
+        <p><center>Facebook: sweetcaki</center></p>
+    </nav>
+
+    <article>
+        <h1><center>BIENVENID@ CAKER</center></h1>
+        <h3><center>Administracion De Sabores</center></h3>
+        <table>
+            <tr><!--CHOCOLATE-->
+                <td><img src="Imagenes/chocolatecake.jpg" alt="Chocolate" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Chocolate <br>Precio: $150 <br>Existencia: 10 <br> Popularidad: 10/10</p></td>
+            </tr>
+            <tr><!--ZANAHORIA-->
+                <td><img src="Imagenes/zanahoriacake.jpg" alt="Zanahoria" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Zanahoria <br>Precio: $100 <br>Existencia: 20 <br> Popularidad: 9/10</p></td>
+            </tr>
+            <tr><!--REDVELT-->
+                <td><img src="Imagenes/redvelvetcake.jpg" alt="Redvelt" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Redvelt <br>Precio: $200 <br>Existencia: 5 <br> Popularidad: 10/10</p></td>
+            </tr>
+            <tr><!--FRUTAL-->
+                <td><img src="Imagenes/frutascake.jpg" alt="Frutal" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Frutal <br>Precio: $150 <br>Existencia: 25 <br> Popularidad: 8/10</p></td>
+            </tr>
+            <tr><!--LIMON-->
+                <td><img src="Imagenes/limoncake.jpg" alt="Limon" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Limon <br>Precio: $125 <br>Existencia: 15 <br> Popularidad: 9/10</p></td>
+            </tr>
+            <tr><!--MOKA-->
+                <td><img src="Imagenes/mokacake.jpg" alt="Moka" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Moka <br>Precio: $200 <br>Existencia: 10 <br> Popularidad: 9.5/10</p></td>
+            </tr>
+        </table>
+        <h3><center><br>Decoraciones<br></center></h3>
+        <table>
+            <tr><!--3D-->
+                <td><img src="Imagenes/3dcake.jpg" alt="3D" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: 3D <br>Precio: $250 <br>Existencia: 10 <br> Popularidad: 10/10</p></td>
+            </tr>
+            <tr><!--BUTTERCREAM-->
+                <td><img src="Imagenes/buttercreamcake.jpg" alt="Buttercream" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Buttercream <br>Precio: $80 <br>Existencia: 20 <br> Popularidad: 10/10</p></td>
+            </tr>
+            <tr><!--DRIP CAKE-->
+                <td><img src="Imagenes/dripcake.jpg" alt="Dripcake" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: DripCake <br>Precio: $100 <br>Existencia: 5 <br> Popularidad: 8/10</p></td>
+            </tr>
+            <tr><!--GANACHE-->
+                <td><img src="Imagenes/ganachecake.jpg" alt="Ganache" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Ganache <br>Precio: $150 <br>Existencia: 25 <br> Popularidad: 10/10</p></td>
+            </tr>
+            <tr><!--FLORAL-->
+                <td><img src="Imagenes/florescake.jpg" alt="Flores" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Floral <br>Precio: $155 <br>Existencia: 25 <br> Popularidad: 8.5/10</p></td>
+            </tr>
+            <tr><!--NAKED-->
+                <td><img src="Imagenes/naked.jpg" alt="Naked" width="200" height="150"></td>
+                <td>
+                    <form action="#">
+                        <input type="submit" value="EDITAR" class="submit2">
+                    </form>
+                </td>
+                <td><p>Nombre: Naked <br>Precio: $75 <br>Existencia: 50 <br> Popularidad: 9.5/10</p></td>
+            </tr>
+        </table>
+    </article>
+</body>
+</html>
